@@ -58,6 +58,16 @@ a {
     color: var(--main-bg-color)
 }
 
+h1 {
+    font-size:22px;
+}
+
+p {
+    font-size:16px;
+    font-weight: 400;
+    margin:0px;
+}
+
 /****** Header ***********/
 header {
     display: flex;
@@ -91,6 +101,125 @@ header .logo {
 header img {
     height: 19px;
 }
+
+/****** Info-group ***********/
+.Info-group {
+    display:inline;
+    justify-content: space-between;
+}
+
+.Info-group #Info-group-div {
+    margin-bottom: 35px;
+}
+
+/****** Headline ***********/
+
+/****** Searchbar ***********/
+
+.Searchbar {
+    height: 49px;
+    display:flex;
+}
+
+#search {
+    border-width: 1px 0 1px 0;
+    border-style: solid none solid none;
+    border-color: var(--main-bg-color) transparent var(--main-bg-color) transparent;
+    text-align: top;
+    text-align: center;
+    height: 49px;
+    padding: 0px 24px;
+}
+
+#search::placeholder {
+    color:black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Searchbar #button {
+    height: 49px;
+    width: 132px;
+    background-color:var(--main-color);
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    border-width: 1px 0 1px 0;
+    border-style: solid none solid none;
+    border-color: var(--main-color) transparent var(--main-color) transparent;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.Searchbar .icon {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-bg-color);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/****** FilterBar ***********/
+.FilterBar {
+    display:flex;
+    align-items: center;
+}
+
+.FilterBar button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: solid 2px var(--main-bg-color);
+    border-radius: 25px;
+    padding:4px 19px;
+    font-weight: bold;
+    font-size:17px;
+    height:50px;
+}
+
+.FilterBar button:hover {
+    background-color: var(--filter-bg-color) 
+}
+
+.FilterBar button img {
+    margin-right: 10px;
+}
+
+.FilterBar p {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.FilterBar-Element {
+    margin-right:15px;
+}
+
+/****** Infobar ***********/
+.Infobar {
+    display:flex;
+    align-items: center;
+}
+
+.Infobar .icon {
+    width: 24px;
+    height: 24px;
+    border:1px solid;
+    border-color:var(--main-bg-color);
+    border-radius:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:10px;
+}
+
+.Infobar .icon img {
+    width: 4px;
+    height: 10px;
+}
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
