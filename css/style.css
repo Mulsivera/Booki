@@ -58,6 +58,40 @@ a {
     color: var(--main-bg-color)
 }
 
+/****** Header ***********/
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 79px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 68px;
+}
+
+.menu button {
+    height: 35px;
+    border-width: 2px 0 0 0;
+    border-style: solid none none none;
+    border-color: var(--main-bg-color) transparent transparent transparent;
+    background-color: transparent;
+}
+
+.menu button:hover {
+    color:var(--main-color);
+    border-color: var(--main-color) transparent transparent transparent;
+}
+
+header .logo {
+    padding: 30px 50px;
+}
+
+header img {
+    height: 19px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
