@@ -17,7 +17,7 @@
     body {
         display: flex;
         justify-content: center;
-        margin:0px;
+        margin:0em;
     }
 
     .main-container {
@@ -39,7 +39,7 @@
 
     .card {
         background-color: white;
-        border-radius: 20px;
+        border-radius: 1.25em;
         padding: 0.313em;
         filter: drop-shadow(0px 3px 0.938em rgba(0, 0, 0, 0.1));
     }
@@ -63,7 +63,7 @@
     p {
         font-size:1em;
         font-weight: 400;
-        margin:0px;
+        margin:0em;
     }
 
 /* General */
@@ -98,7 +98,7 @@
     }
 
     .header .header-logo {
-        padding: 1.875em 0px;
+        padding: 1.875em 0em;
     }
 
     .header .header-logo img {
@@ -142,7 +142,7 @@
             border-style: solid none solid none;
             border-color: var(--main-bg-color) transparent var(--main-bg-color) transparent;
             text-align: center;
-            padding: 0px 1.5em;
+            padding: 0em 1.5em;
         }
 
         .searchbar-input::placeholder {
@@ -363,7 +363,7 @@
     }
 
     .activites-cards .card {
-        padding: 0px;
+        padding: 0em;
         width: 25%;
         margin-right:1.563em;
     }
@@ -464,11 +464,11 @@
             }
 
             .populaires-cards .card-title, .hebergements-cards .card-title {
-                font-size: 14px;
+                font-size: 0.875em;
             }
 
             .populaires-cards .card-subtitle, .hebergements-cards .card-subtitle {
-                font-size: 13px;
+                font-size: 0.813em;
             }
 
         /* Populaires */
@@ -502,7 +502,7 @@
 
         .header {
             display: inline;
-            margin-bottom: 30px;
+            margin-bottom: 1.875em;
         }
 
         .header-logo {
@@ -511,14 +511,14 @@
         }
 
         .header-menu {
-            margin-bottom: 30px;
-            column-gap: 0px;;
+            margin-bottom: 1.875em;
+            column-gap: 0em;
         }
 
         .header-menu .menu-navigation {
             border-top:none;
             border-bottom: 2px solid var(--main-bg-color);
-            padding-bottom:15px;
+            padding-bottom:0.625em;
         }
 
         .header-menu .menu-navigation:hover {
@@ -534,7 +534,7 @@
     /* Infogroup */
 
         .infogroup-headline, .infogroup-searchbar, .infogroup-filterbar p, .filterbar-selector, .infogroup-infobar, .activites {
-            padding: 0px 20px;
+            padding: 0em 1.25em;
         }
 
     /* Searchbar */
@@ -545,8 +545,8 @@
 
         .infogroup-searchbar .searchbar-wenicon {
             background-color: var(--main-color);
-            padding: 16px 15px;
-            border-radius: 15px;
+            padding: 1em 0.938em;
+            border-radius: 0.938em;
         }
 
     /* Searchbar */
@@ -555,17 +555,17 @@
 
         .filterbar-selector {
             flex-wrap: wrap;
-            gap: 20px;
+            gap: 1.25em;
         }
 
         .filterbar-title ,.selector-button {
             width: 100%;
-            max-width: 163px;
+            max-width: 10.188em;
             box-sizing: border-box;
         }
 
         .infogroup-filterbar ,.selector-button {
-            font-size:14px;
+            font-size:0.875em;
         }
 
     /* Filterbar */
@@ -593,7 +593,7 @@
     /* Hebergements */
 
         .hebergements-cards .card, .hebergements .hebergements-title {
-            margin-bottom: 15px;
+            margin-bottom: 0.938em;
         }
 
     /* Hebergements */
@@ -601,7 +601,7 @@
     /* Populaires */
 
         .populaires {
-            margin-top: 0px;
+            margin-top: 0em;
         }
 
     /* Populaires */
@@ -615,15 +615,15 @@
     /* Activités */
 
         .activites-cards .card {
-            padding: 0px;
+            padding: 0em;
             width: 100%;
-            margin-bottom: 15px;
-            margin-right: 0px;
+            margin-bottom: 0.938em;
+            margin-right: 0em;
             height: 17em;
         }
 
         .activites-cards .card-subtitle {
-            margin: 20px 19px;
+            margin: 1.25em 1.188em;
             font-size: 1em;
             font-weight: bold;
         }
