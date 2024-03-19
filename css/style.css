@@ -79,15 +79,17 @@ header {
     column-gap: 4.25em;
 }
 
-.menu button {
+.menu a {
     height: 2.188em;
     border: none;
     border-top: 2px solid var(--main-bg-color);
     background-color: transparent;
     font-size: 1em;
+    text-align: center;
+    padding-top: 15px;
 }
 
-.menu button:hover {
+.menu a:hover {
     color:var(--main-color);
     border-color: var(--main-color)
 }
@@ -106,7 +108,7 @@ header img {
     justify-content: space-between;
 }
 
-.Info-group #Info-group-div {
+.Headline, .Searchbar, .FilterBar, .Infobar {
     margin-bottom: 2.188em;
 }
 
@@ -462,12 +464,20 @@ footer div {
 
     .menu button {
         border:none;
+    }
+
+    .menu a {
+        border-top:none;
         border-bottom: 2px solid var(--main-bg-color);
         padding-bottom:15px;
     }
 
-    .menu button:hover {
+    .menu a:hover {
         border-color: var(--main-color);
+    }
+
+    .menu a {
+        text-align: center;
     }
 
     .Searchbar #button {
