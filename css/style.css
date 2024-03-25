@@ -117,7 +117,7 @@
     }
 
     .infogroup-infobar {
-        margin-top: 1.875em
+        margin-top: 1.875em;
     }
 
     /* Headline */
@@ -222,20 +222,10 @@
         }
 
         .infogroup-infobar .infobar-icon {
-            width: 1.5em;
-            height: 1.5em;
-            border:1px solid;
-            border-color:var(--main-bg-color);
-            border-radius:0.938em;
             display: flex;
             justify-content: center;
             align-items: center;
             margin-right:0.625em;
-        }
-
-        .infogroup-infobar .infobar-icon .icon-informationicon {
-            width: 0.25em;
-            height: 0.625em;
         }
 
     /* Infobar */
@@ -555,12 +545,12 @@
 
         .filterbar-selector {
             flex-wrap: wrap;
-            gap: 1.25em;
+            gap: 0.625em;
         }
 
         .filterbar-title ,.selector-button {
-            width: 100%;
-            max-width: 10.188em;
+            max-width: 10.5em;
+            min-width: 10.5em;
             box-sizing: border-box;
         }
 
